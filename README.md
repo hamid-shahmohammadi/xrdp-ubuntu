@@ -1,6 +1,22 @@
 # xrdp-ubuntu
 
 ```
+sudo apt-get update
+```
+
+```
+sudo apt install xrdp
+```
+
+```
+sudo apt install xserver-xorg-core
+```
+
+```
+sudo apt install xorgxrdp
+```
+
+```
 sudo nano /etc/polkit-1/localauthority.conf.d/01-allow-colrd.conf
 ```
 
