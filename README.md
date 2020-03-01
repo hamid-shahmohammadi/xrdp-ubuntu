@@ -45,6 +45,7 @@ sudo systemctl status xrdp
 sudo systemctl enable xrdp
 ```
 
+## start lampp server
 
 ```
 sudo /opt/lampp/lampp start
