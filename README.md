@@ -50,3 +50,9 @@ sudo systemctl enable xrdp
 ```
 sudo /opt/lampp/lampp start
 ```
+### Run Method In cpanel
+```
+wget http://bimehtakayar.ir/public/{{class}}/{{method}}
+```
+### Back up cpanel
+/usr/bin/mysqldump -u {{user}} -p'{{password}}' bimehtak_takayar | gzip > /home/bimehtak/tmp/db/db_bt_`date +\%Y\%m\%d\%H\%M`.sql.gz
