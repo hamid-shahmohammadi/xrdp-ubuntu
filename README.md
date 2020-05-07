@@ -56,3 +56,6 @@ wget http://bimehtakayar.ir/public/{{class}}/{{method}}
 ```
 ### Back up cpanel
 /usr/bin/mysqldump -u {{user}} -p'{{password}}' bimehtak_takayar | gzip > /home/bimehtak/tmp/db/db_bt_`date +\%Y\%m\%d\%H\%M`.sql.gz
+
+### ubuntu server
+https://gist.github.com/hehuan2112/54cca01be23973a9f8b369e8d0df216e
