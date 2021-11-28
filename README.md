@@ -59,3 +59,14 @@ wget http://bimehtakayar.ir/public/{{class}}/{{method}}
 
 ### ubuntu server
 https://gist.github.com/hehuan2112/54cca01be23973a9f8b369e8d0df216e
+
+# ubuntu server 20.04 + xrdp + xfce
+
+```
+sudo apt update
+sudo apt install xrdp
+sudo apt install xfce4
+sudo apt-get install xfce4-terminal tango-icon-theme
+echo xfce4-session > ~/.xsession
+sudo service xrdp restart
+```
