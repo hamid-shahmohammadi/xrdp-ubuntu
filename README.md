@@ -66,7 +66,6 @@ https://gist.github.com/hehuan2112/54cca01be23973a9f8b369e8d0df216e
 sudo apt update
 sudo apt install xrdp
 sudo apt install xfce4
-sudo apt-get install xfce4-terminal tango-icon-theme
 echo xfce4-session > ~/.xsession
 sudo service xrdp restart
 ```
