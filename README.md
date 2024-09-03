@@ -56,7 +56,15 @@ wget http://bimehtakayar.ir/public/{{class}}/{{method}}
 ```
 ### Back up cpanel
 /usr/bin/mysqldump -u {{user}} -p'{{password}}' bimehtak_takayar | gzip > /home/bimehtak/tmp/db/db_bt_`date +\%Y\%m\%d\%H\%M`.sql.gz
-
+## mint
+```
+sudo apt upgrade
+    sudo apt install xrdp xorgxrdp
+    sudo apt install xserver-xorg-input-all
+    sudo adduser xrdp ssl-cert
+    sudo ufw allow 3389/tcp
+    echo env -u SESSION_MANAGER -u DBUS_SESSION_BUS_ADDRESS cinnamon-session~/.xsession
+```
 ### ubuntu server
 https://gist.github.com/hehuan2112/54cca01be23973a9f8b369e8d0df216e
 
